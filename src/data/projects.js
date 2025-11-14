@@ -47,7 +47,7 @@ export const projects = [
       "A lightweight, open-source web application for creating, managing, and exporting invoices — designed to be simple, fast, and customizable.<br><br>Built with React, Tailwind CSS, and Supabase, this project provides a full-stack workflow to handle clients, invoices, and payment tracking with built-in support for IVA / IRPF tax fields and PDF generation",
     tech: ["React", "Supabase", "Tailwind"],
     githubUrl: "https://github.com/aurelien-darbellay/invoicesManager",
-    deployUrl: "https://invoicesmanager-friends.netlify.app/",
+    deployUrl: "https://invoicesmanager-friends.netlify.app/?test=true",
   },
   {
     id: "java-spring-api",
