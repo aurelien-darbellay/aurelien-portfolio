@@ -1,7 +1,7 @@
 import img1 from "../assets/elTaller.png";
 import img2 from "../assets/onlineGames.png";
 import img3 from "../assets/cvflows.png";
-import img4 from "../assets/project-4.svg";
+import img4 from "../assets/invoiceManager.png";
 import img5 from "../assets/project-5.svg";
 import img6 from "../assets/project-6.svg";
 
@@ -37,17 +37,17 @@ export const projects = [
       "A lightweight online game platform that allows, for now, to play Sudoku and a game based on prime decomposition. Built with React and Vite.",
     tech: ["React", "Vite", "CSS", "JavaScript"],
     githubUrl: "https://github.com/aurelien-darbellay/online-games",
-    deployUrl: "https://aureliendarbellay-portfolio.netlify.app/",
+    deployUrl: "https://games-online-adarbellay.netlify.app/",
   },
   {
-    id: "teaching-platform",
-    title: "Teaching Platform (Placeholder)",
+    id: "Friendly-Invoice Manager",
+    title: "Friendly Invoice Manager",
     image: img4,
     description:
-      "Placeholder project — showcase a course planner or content delivery app aligned with your teaching experience.",
+      "A lightweight, open-source web application for creating, managing, and exporting invoices — designed to be simple, fast, and customizable.<br><br>Built with React, Tailwind CSS, and Supabase, this project provides a full-stack workflow to handle clients, invoices, and payment tracking with built-in support for IVA / IRPF tax fields and PDF generation",
     tech: ["React", "Supabase", "Tailwind"],
-    githubUrl: "https://github.com/aurelien-darbellay",
-    deployUrl: "#",
+    githubUrl: "https://github.com/aurelien-darbellay/invoicesManager",
+    deployUrl: "https://invoicesmanager-friends.netlify.app/",
   },
   {
     id: "java-spring-api",
