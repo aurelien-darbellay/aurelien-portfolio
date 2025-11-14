@@ -1,5 +1,5 @@
 import img1 from "../assets/elTaller.png";
-import img2 from "../assets/project-2.svg";
+import img2 from "../assets/onlineGames.png";
 import img3 from "../assets/cvflows.png";
 import img4 from "../assets/project-4.svg";
 import img5 from "../assets/project-5.svg";
@@ -17,26 +17,26 @@ export const projects = [
       front: "https://github.com/aurelien-darbellay/cvFlows-frontEnd",
       back: "https://github.com/aurelien-darbellay/cvFlows-backEnd",
     },
-    deployUrl: "http://localhost:5173/?test=true",
+    deployUrl: "https://cvflows.netlify.app/?test=true",
   },
   {
     id: "elTaller-website",
     title: "WebSite Dance School El Taller",
     image: img1,
     description:
-      "Website for a local dance school, built with React and Vite. Features a responsive design, class schedules,contact forms and a private area with room booking system. Connected to PostgreSQL via supaBase API.",
+      "Website for a local dance school, built with React and Vite. Features a responsive design, class schedules, contact and registration forms and a private area with room booking system. <br>Users with admin privileges can manage sessions; create and update courses; access, edit and manage booking monthly summaries. <br>Connected to PostgreSQL via supaBase API. <br>Integrated with a Google App Script utility that automates students management (groups, mailing, data base, etc.).",
     tech: ["JavaScript", "React", "Tailwind", "PostgreSQL", "SupabaseAPI"],
     githubUrl: "https://github.com/aurelien-darbellay/elTaller",
     deployUrl: "https://eltallerswing.com/?test=true",
   },
   {
-    id: "portfolio-site",
-    title: "Personal Portfolio",
+    id: "online-games",
+    title: "Online Games",
     image: img2,
     description:
-      "This website. React + Vite with a responsive grid, accessible components, and clean design. Built with VibeCoding entirely.",
-    tech: ["React", "Vite", "CSS"],
-    githubUrl: "https://github.com/aurelien-darbellay/aurelien-portfolio",
+      "A lightweight online game platform that allows, for now, to play Sudoku and a game based on prime decomposition. Built with React and Vite.",
+    tech: ["React", "Vite", "CSS", "JavaScript"],
+    githubUrl: "https://github.com/aurelien-darbellay/online-games",
     deployUrl: "https://aureliendarbellay-portfolio.netlify.app/",
   },
   {

@@ -115,7 +115,7 @@ export default function ProjectCard({ project }) {
       </div>
       <div className="card-body">
         <h3>{project.title}</h3>
-        <p>{project.description}</p>
+        <p dangerouslySetInnerHTML={{ __html: project.description }}></p>
 
         <div className="badges">
           {project.tech.map((t) => (

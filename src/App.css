@@ -176,7 +176,7 @@ main {
 }
 .card:hover {
   border-color: rgba(125, 85, 255, 0.5);
-  transform: translateY(-2px) scale(1.5);
+  transform: translateY(-2px) scale(1.2);
   background: rgba(17, 24, 39, 1);
 }
 
@@ -239,6 +239,7 @@ main {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   flex: 0 0 auto;
+  cursor: pointer;
 }
 .icon-link:hover {
   background: rgba(255, 255, 255, 0.06);
