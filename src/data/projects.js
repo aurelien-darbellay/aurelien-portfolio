@@ -59,14 +59,4 @@ export const projects = [
     githubUrl: "https://github.com/aurelien-darbellay",
     deployUrl: "#",
   },
-  {
-    id: "react-native-app",
-    title: "React Native App (Placeholder)",
-    image: img6,
-    description:
-      "Placeholder project — mobile app idea to highlight your React Native skills.",
-    tech: ["React Native", "Expo"],
-    githubUrl: "https://github.com/aurelien-darbellay",
-    deployUrl: "#",
-  },
 ];
