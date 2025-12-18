@@ -49,14 +49,4 @@ export const projects = [
     githubUrl: "https://github.com/aurelien-darbellay/invoicesManager",
     deployUrl: "https://invoicesmanager-friends.netlify.app/?test=true",
   },
-  {
-    id: "java-spring-api",
-    title: "Spring Boot API (Placeholder)",
-    image: img5,
-    description:
-      "Placeholder project — REST API with authentication and CRUD, ready to be replaced by your Java/Spring work.",
-    tech: ["Java", "Spring Boot", "PostgreSQL"],
-    githubUrl: "https://github.com/aurelien-darbellay",
-    deployUrl: "#",
-  },
 ];
