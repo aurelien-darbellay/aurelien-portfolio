@@ -81,7 +81,7 @@ export default function ProjectCard({ project }) {
         aria-hidden="true"
         title="Add github.front or github.back to enable"
       >
-        <GitHubIcon /> No Repo
+        <GitHubIcon /> Repo is private
       </span>
     );
   };

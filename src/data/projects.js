@@ -1,9 +1,7 @@
 import img1 from "../assets/elTaller.png";
 import img2 from "../assets/onlineGames.png";
 import img3 from "../assets/cvflows.png";
-import img4 from "../assets/invoiceManager.png";
-import img5 from "../assets/project-5.svg";
-import img6 from "../assets/project-6.svg";
+import img4 from "../assets/cvsLab.png";
 
 export const projects = [
   {
@@ -26,7 +24,6 @@ export const projects = [
     description:
       "Website for a local dance school, built with React and Vite. Features a responsive design, class schedules, contact and registration forms and a private area with room booking system. <br>Users with admin privileges can manage sessions; create and update courses; access, edit and manage booking monthly summaries. <br>Connected to PostgreSQL via supaBase API. <br>Integrated with a Google App Script utility that automates students management (groups, mailing, data base, etc.).",
     tech: ["JavaScript", "React", "Tailwind", "PostgreSQL", "SupabaseAPI"],
-    githubUrl: "https://github.com/aurelien-darbellay/elTaller",
     deployUrl: "https://eltallerswing.com/?test=true",
   },
   {
@@ -40,13 +37,13 @@ export const projects = [
     deployUrl: "https://games-online-adarbellay.netlify.app/",
   },
   {
-    id: "Friendly-Invoice Manager",
-    title: "Friendly Invoice Manager",
+    id: "cvsLab",
+    title: "CVsLab",
     image: img4,
     description:
-      "A lightweight, open-source web application for creating, managing, and exporting invoices — designed to be simple, fast, and customizable.<br><br>Built with React, Tailwind CSS, and Supabase, this project provides a full-stack workflow to handle clients, invoices, and payment tracking with built-in support for IVA / IRPF tax fields and PDF generation",
-    tech: ["React", "Supabase", "Tailwind"],
-    githubUrl: "https://github.com/aurelien-darbellay/invoicesManager",
-    deployUrl: "https://invoicesmanager-friends.netlify.app/?test=true",
+      "a web platform for creating, managing, and sharing professional CVs, focused on clarity, usability, and modern design. It features a dynamic front-end with structured data management, real-time editing, and export capabilities.",
+    tech: ["React", "Supabase", "Tailwind", "TypeScript"],
+    githubUrl: "https://github.com/aurelien-darbellay/cvLabs.git",
+    deployUrl: "https://https://cvslab.netlify.app/",
   },
 ];
