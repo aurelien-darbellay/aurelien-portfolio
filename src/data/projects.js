@@ -2,8 +2,28 @@ import img1 from "../assets/elTaller.png";
 import img2 from "../assets/onlineGames.png";
 import img3 from "../assets/cvflows.png";
 import img4 from "../assets/cvsLab.png";
+import img5 from "../assets/Mercadona.png";
 
 export const projects = [
+  {
+    id: "cvsLab",
+    title: "CVsLab",
+    image: img4,
+    description:
+      "a web platform for creating, managing, and sharing professional CVs, focused on clarity, usability, and modern design. It features a dynamic front-end with structured data management, real-time editing, and export capabilities.",
+    tech: ["React", "Supabase", "Tailwind", "TypeScript"],
+    githubUrl: "https://github.com/aurelien-darbellay/cvLabs.git",
+    deployUrl: "https://https://cvslab.netlify.app/",
+  },
+  {
+    id: "mercadona-navigator",
+    title: "Mercadona Navigator",
+    image: img5,
+    description:
+      "A TypeScript-based API client and navigator for interacting with Mercadona's online store (tienda.mercadona.es). This project provides a clean, type-safe interface for searching products, retrieving product details, and navigating through associated products.",
+    tech: ["Node.js", "TypeScript", "Axios"],
+    githubUrl: "https://github.com/aurelien-darbellay/mercadona-navigator.git",
+  },
   {
     id: "cv-flows",
     title: "CV Flows",
@@ -35,15 +55,5 @@ export const projects = [
     tech: ["React", "Vite", "CSS", "JavaScript"],
     githubUrl: "https://github.com/aurelien-darbellay/online-games",
     deployUrl: "https://games-online-adarbellay.netlify.app/",
-  },
-  {
-    id: "cvsLab",
-    title: "CVsLab",
-    image: img4,
-    description:
-      "a web platform for creating, managing, and sharing professional CVs, focused on clarity, usability, and modern design. It features a dynamic front-end with structured data management, real-time editing, and export capabilities.",
-    tech: ["React", "Supabase", "Tailwind", "TypeScript"],
-    githubUrl: "https://github.com/aurelien-darbellay/cvLabs.git",
-    deployUrl: "https://https://cvslab.netlify.app/",
   },
 ];
