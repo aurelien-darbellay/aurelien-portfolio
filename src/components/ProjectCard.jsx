@@ -55,10 +55,10 @@ export default function ProjectCard({ project }) {
     const singleUrl = hasFront
       ? ghFront
       : hasBack
-      ? ghBack
-      : hasLegacy
-      ? legacy
-      : null;
+        ? ghBack
+        : hasLegacy
+          ? legacy
+          : null;
     if (singleUrl) {
       return (
         <a
@@ -133,11 +133,7 @@ export default function ProjectCard({ project }) {
             <div className="icon-link" aria-hidden="true">
               ↗︎ Live
             </div>
-          ) : (
-            <div className="icon-link" aria-hidden="true">
-              Soon
-            </div>
-          )}
+          ) : null}
         </div>
       </div>
     </article>
