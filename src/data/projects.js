@@ -3,6 +3,7 @@ import img2 from "../assets/onlineGames.png";
 import img3 from "../assets/cvflows.png";
 import img4 from "../assets/cvsLab.png";
 import img5 from "../assets/Mercadona.png";
+import img6 from "../assets/freedom_reader.png";
 
 export const projects = [
   {
@@ -59,7 +60,7 @@ export const projects = [
   {
     id: "freedom-reader",
     title: "Freedom Reader",
-    image: "https://via.placeholder.com/300x200.png?text=Freedom+Reader",
+    image: img6,
     description:"Web app that consumes third party API, to let the user explore books and authors across multiple public catalogs. Then save results to local \"shelves\" in the browser.",
     tech: ["JavaScript","CSS", "HTML"],
     githubUrl: "https://github.com/aurelien-darbellay/freedom-reader"
