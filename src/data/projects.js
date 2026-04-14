@@ -61,7 +61,7 @@ export const projects = [
     id: "freedom-reader",
     title: "Freedom Reader",
     image: img6,
-    description:"Web app that consumes third party API, to let the user explore books and authors across multiple public catalogs. Then save results to local \"shelves\" in the browser.",
+    description:"Web app that consumes third party APIs, to let the user explore books and authors across multiple public catalogs. Then save results to local \"shelves\" in the browser.\nData sources:\n- Google Books API\n- Project Gutenberg (Gutendex)\n- Open Library",
     tech: ["JavaScript","CSS", "HTML"],
     githubUrl: "https://github.com/aurelien-darbellay/freedom-reader"
 
