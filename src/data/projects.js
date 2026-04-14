@@ -13,7 +13,7 @@ export const projects = [
       "a web platform for creating, managing, and sharing professional CVs, focused on clarity, usability, and modern design. It features a dynamic front-end with structured data management, real-time editing, and export capabilities.",
     tech: ["React", "Supabase", "Tailwind", "TypeScript"],
     githubUrl: "https://github.com/aurelien-darbellay/cvLabs.git",
-    deployUrl: "https://https://cvslab.netlify.app/",
+    deployUrl: "https://cvslab.netlify.app/",
   },
   {
     id: "mercadona-navigator",
