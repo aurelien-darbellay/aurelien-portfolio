@@ -56,4 +56,13 @@ export const projects = [
     githubUrl: "https://github.com/aurelien-darbellay/online-games",
     deployUrl: "https://games-online-adarbellay.netlify.app/",
   },
+  {
+    id: "freedom-reader",
+    title: "Freedom Reader",
+    image: "https://via.placeholder.com/300x200.png?text=Freedom+Reader",
+    description:"Web app that consumes third party API, to let the user explore books and authors across multiple public catalogs. Then save results to local \"shelves\" in the browser.",
+    tech: ["JavaScript","CSS", "HTML"],
+    githubUrl: "https://github.com/aurelien-darbellay/freedom-reader"
+
+  },
 ];
